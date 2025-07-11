@@ -6,7 +6,7 @@ This is the landing page for the **Water Consumption App** developed for the Fac
 
 ## About the App
 
-The app is designed to **track water consumption** at the University of Colima campus "El Naranajo", helping monitor and manage usage effectively.
+The app is designed to **track water consumption** at the University of Colima campus "El Naranjo", helping monitor and manage usage effectively.
 
 ---
 
