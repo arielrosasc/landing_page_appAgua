@@ -1,5 +1,5 @@
 import phone1 from "../assets/phone1.jpg"; // Asegúrate de que la extensión sea correcta
-import phone2 from "../assets/phone2.jpg";
+import phone2 from "../assets/phone2.png";
 import phone3 from "../assets/phone3.jpg";
 
 function PhoneShowcase() {

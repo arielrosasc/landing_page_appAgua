@@ -16,11 +16,11 @@ function Button({ text, variant }) {
       <p style={{ marginTop: '20px' }}>
         Developed by{' '}
         <a
-          href="https://github.com/arosasc"
+          href="https://github.com/arielrosasc"
           target="_blank"
           style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none' }}
         >
-          @arosasc
+          @arielrosasc
         </a>{' '}
         &{' '}
         <a
