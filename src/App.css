@@ -70,6 +70,7 @@ body, html {
   gap: 2rem;
   flex-wrap: wrap;
   padding: 0rem 2rem;
+  margin-top: 2.5rem;
 }
 
 /* Hero text section */
@@ -196,15 +197,27 @@ p {
 
 /* Móviles (≤ 480px) */
 @media (max-width: 480px) {
+
+  .phones img:nth-child(1),
+  .phones img:nth-child(3) {
+    display: none;
+  }
+
+  .phones img:nth-child(2) {
+    transform: none; /* opcional: quitar transformaciones */
+    z-index: 1;
+  }
+
   .logo-img {
     width: 80px;
     display: flex;
+    padding-left: 0;
     justify-content: center;
   }
 
   .hero {
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .text {
