@@ -7,12 +7,17 @@ function Button({ text, variant }) {
 
   return (
     <div style={{ textAlign: 'left' }}>
-      <a href="https://drive.google.com/drive/folders/1Ebir_gOFgRrvXFamjXpHIPUMmVSQU3cN?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+      <a
+        href="/assets/apk/FIE_water_consumption_v1.apk"
+        download
+        style={{ textDecoration: 'none' }}
+      >
         <button className={classes}>
           <FaAndroid className="icon" />
           <span>{text}</span>
         </button>
       </a>
+
       <p style={{ marginTop: '20px' }}>
         Developed by{' '}
         <a
@@ -31,7 +36,6 @@ function Button({ text, variant }) {
           @MartinFits
         </a>
       </p>
-
     </div>
   );
 }
