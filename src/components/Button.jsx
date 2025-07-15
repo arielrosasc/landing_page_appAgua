@@ -8,7 +8,7 @@ function Button({ text, variant }) {
   return (
     <div style={{ textAlign: 'left' }}>
       <a
-        href="/assets/apk/FIE_water_consumption_v1.apk"
+        href="https://arielrosasc.github.io/landing_page_appAgua/assets/apk/FIE_water_consumption_v1.apk"
         download
         style={{ textDecoration: 'none' }}
       >
